@@ -2,38 +2,56 @@ import Image from "next/image"
 
 const factions = [
   {
-    name: "The Iron Crown",
-    motto: "Through Steel, We Rule",
+    name: "LSPD",
+    motto: "To Protect and Serve",
     description:
-      "The ruling monarchy and their loyal knights. Masters of diplomacy and military might.",
+      "The Los Santos Police Department. Uphold the law, patrol the streets, and keep the city safe from crime.",
     members: "120+",
     color: "border-primary",
     accent: "text-primary",
   },
   {
-    name: "The Shadow Guild",
-    motto: "In Darkness, We Prosper",
+    name: "SAPD",
+    motto: "Justice Across the State",
     description:
-      "A clandestine network of thieves, assassins, and spies who operate from the shadows.",
+      "The San Andreas Police Department. State-level law enforcement handling highways, investigations, and major operations.",
     members: "85+",
     color: "border-accent",
     accent: "text-accent",
   },
   {
-    name: "The Free Merchants",
-    motto: "Gold Opens Every Gate",
+    name: "News",
+    motto: "Breaking Stories, Shaping the City",
     description:
-      "The wealthiest trading consortium controlling commerce routes across all regions.",
-    members: "95+",
+      "The Weazel News team. Cover breaking events, interview key figures, and broadcast live from the heart of the action.",
+    members: "50+",
     color: "border-primary",
     accent: "text-primary",
   },
   {
-    name: "The Wild Clans",
-    motto: "Strength in Unity",
+    name: "Medics",
+    motto: "Every Second Counts",
     description:
-      "Fierce warrior tribes who refuse to kneel, defending the untamed wilderness as their own.",
+      "The Emergency Medical Services. Respond to emergencies, save lives, and operate the hospital and ambulance fleet.",
     members: "70+",
+    color: "border-accent",
+    accent: "text-accent",
+  },
+  {
+    name: "Mechanics",
+    motto: "We Keep the City Moving",
+    description:
+      "The city's top mechanics. Repair, customize, and tow vehicles for citizens across Los Santos.",
+    members: "45+",
+    color: "border-primary",
+    accent: "text-primary",
+  },
+  {
+    name: "Government",
+    motto: "Order Through Leadership",
+    description:
+      "The Mayor's office and city officials. Manage laws, taxes, city events, and shape the future of San Andreas.",
+    members: "30+",
     color: "border-accent",
     accent: "text-accent",
   },
@@ -52,11 +70,11 @@ export function FactionsSection() {
             <span className="text-balance">The Factions</span>
           </h2>
           <p className="mx-auto mt-4 max-w-xl text-muted-foreground leading-relaxed">
-            Align yourself with a faction that matches your playstyle, or carve your own path as an independent.
+            Join a faction that matches your playstyle. Enforce the law, save lives, report the news, or run the city.
           </p>
         </div>
 
-        <div className="grid gap-6 sm:grid-cols-2">
+        <div className="grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
           {factions.map((faction) => (
             <div
               key={faction.name}

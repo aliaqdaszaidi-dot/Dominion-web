@@ -84,7 +84,7 @@ export function Footer() {
             <div className="flex flex-col gap-3 text-sm">
               <div>
                 <p className="text-muted-foreground">Server IP</p>
-                <p className="font-mono font-bold text-primary">148.113.4.178:7777</p>
+                <p className="font-mono font-bold text-primary">15.235.173.7:14123</p>
               </div>
               <div>
                 <p className="text-muted-foreground">Platform</p>

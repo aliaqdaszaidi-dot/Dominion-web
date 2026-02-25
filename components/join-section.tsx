@@ -72,10 +72,10 @@ export function JoinSection() {
           </p>
           <div className="flex items-center gap-3 rounded-sm border border-border bg-background px-6 py-3">
             <span className="font-mono text-sm text-muted-foreground">Server IP:</span>
-            <span className="font-mono text-sm font-bold text-primary">148.113.4.178:7777</span>
+            <span className="font-mono text-sm font-bold text-primary">15.235.173.7:14123</span>
           </div>
           <a
-            href="samp://148.113.4.178:7777"
+            href="samp://15.235.173.7:14123"
             className="inline-flex items-center gap-2 rounded-sm border border-primary bg-primary px-10 py-4 font-serif text-sm font-bold tracking-widest text-primary-foreground transition-all hover:bg-primary/90"
           >
             CONNECT NOW
